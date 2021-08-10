@@ -52,7 +52,16 @@
   .root{
     flex-direction: column;
   }
-  .options {
+  .options, .sku {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .root{
+    flex-direction: column;
+  }
+  .options, .sku {
     display: none;
   }
 }
