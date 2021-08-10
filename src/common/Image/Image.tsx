@@ -8,7 +8,7 @@ const Image = () => {
     <div className={style.root}>
       {showingAR ? (
         <ModelViewer
-          src="/models/Astronaut.glb"
+          src="/models/bottle.glb"
           alt="A 3D model of an astronaut"
           ar
           ar-modes="webxr scene-viewer quick-look"
